@@ -74,3 +74,5 @@ app.use((req,res,next) => {
 app.use('/',routes());
 
 app.listen(3000);
+
+// require('./handlers/email'); para verificar que se envien los mails de recuperacion de pasword
